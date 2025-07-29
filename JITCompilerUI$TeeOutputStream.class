@@ -1,0 +1,18 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.io.IOException;
+import java.io.OutputStream;
+
+class JITCompilerUI$TeeOutputStream extends OutputStream {
+   private final OutputStream out1;
+   private final OutputStream out2;
+
+   JITCompilerUI$TeeOutputStream(OutputStream var1, OutputStream var2) {
+      this.out1 = var1;
+      this.out2 = var2;
+   }
+
+   public void write(int var1) throws IOException {
+      this.out1.write(var1);
+      this.out2.write(var1);
+   }
+}
