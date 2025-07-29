@@ -20,15 +20,6 @@ This project simulates a basic **Just-In-Time (JIT) Compiler** using a GUI built
 - ✅ Output and errors displayed live in terminal-style area
 - ✅ Measures and displays execution time
 
----
-
-## 🖼️ Screenshot
-
-![JIT Compiler UI](https://via.placeholder.com/800x500.png?text=JIT+Compiler+UI+Preview)  
-<sub>*Replace with your actual screenshot*</sub>
-
----
-
 ## 📁 File Structure
 
 ```plaintext
@@ -77,7 +68,7 @@ This project is released under the MIT License.
 
 👨‍💻 Author
 Aman Singh Batola
-📧 GitHub Profile
+📧 GitHub Profile  @Amansinghbatola
 
 🏁 Example Input (Inside the app)
 java
